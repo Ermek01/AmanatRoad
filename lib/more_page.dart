@@ -11,7 +11,11 @@ class _MorePageState extends State<MorePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Container(
+        child: const Center(
+          child: Text('More Page'),
+        ),
+      ),
     );
   }
 }

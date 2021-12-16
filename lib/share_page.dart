@@ -10,6 +10,12 @@ class SharePage extends StatefulWidget {
 class _SharePageState extends State<SharePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Container(
+        child: const Center(
+          child: Text('Share Page'),
+        ),
+      ),
+    );
   }
 }

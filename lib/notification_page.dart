@@ -11,7 +11,11 @@ class _NotificationPageState extends State<NotificationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Container(
+        child: const Center(
+          child: Text('Notification Page'),
+        ),
+      ),
     );
   }
 }

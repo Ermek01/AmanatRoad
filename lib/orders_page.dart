@@ -11,7 +11,11 @@ class _OrdersPageState extends State<OrdersPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Container(
+        child: const Center(
+          child: Text('Orders Page'),
+        ),
+      ),
     );
   }
 }
