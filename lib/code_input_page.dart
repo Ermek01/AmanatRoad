@@ -52,7 +52,7 @@ class _CodeInputPageState extends State<CodeInputPage> {
             const Padding(
                 padding: EdgeInsets.only(top: 40),
                 child: Text(
-                  "Пожадуйста введите код",
+                  "Пожалуйста введите код",
                   style: TextStyle(
                       fontSize: 18,
                       fontFamily: 'Montserrat',

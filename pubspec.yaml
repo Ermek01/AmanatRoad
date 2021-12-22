@@ -33,6 +33,7 @@ dependencies:
   flutter_svg_provider: ^0.1.9
   otp_text_field: ^1.1.1
   convex_bottom_bar: ^3.0.0
+  fluttertoast: ^8.0.8
 
 pin_code_fields:
   path: ..//
@@ -77,6 +78,23 @@ flutter:
      - assets/images/ic_back.svg
      - assets/images/ic_home.png
      - assets/images/ic_profile.png
+     - assets/images/ic_noti.png
+     - assets/images/ic_user.svg
+     - assets/images/ic_arrow_right.svg
+     - assets/images/ic_price_list.svg
+     - assets/images/ic_calc.svg
+     - assets/images/ic_location.svg
+     - assets/images/ic_warning.svg
+     - assets/images/ic_logout.svg
+     - assets/images/ic_arrow.svg
+     - assets/images/ic_order_process.svg
+     - assets/images/ic_arrow_bottom.svg
+     - assets/images/ic_order_confirm.svg
+     - assets/images/ic_order_courier_bg.svg
+     - assets/images/ic_order_courier.svg
+     - assets/images/ic_arrow_circle_right.svg
+     - assets/images/ic_courier_send_bg.svg
+     - assets/images/ic_courier_send.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -92,7 +110,13 @@ flutter:
   fonts:
     - family: Montserrat
       fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+    - family: Montserrat-Regular
+      fonts:
         - asset: fonts/Montserrat-Regular.ttf
+    - family: Montserrat-Bold
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
