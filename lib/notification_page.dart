@@ -24,8 +24,8 @@ class _NotificationPageState extends State<NotificationPage> {
               child: const Text(
                 "Уведомления",
                 style: TextStyle(
-                    fontSize: 22,
-                    fontFamily: 'Montserrat-Medium',
+                    fontSize: 18,
+                    fontFamily: 'Montserrat-SemiBold',
                     color: Color(0xFF062E4B),
                     fontWeight: FontWeight.w600),
               ),

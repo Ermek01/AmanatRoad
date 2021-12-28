@@ -55,7 +55,7 @@ class _CodeInputPageState extends State<CodeInputPage> {
                   "Пожалуйста введите код",
                   style: TextStyle(
                       fontSize: 18,
-                      fontFamily: 'Montserrat',
+                      fontFamily: 'Montserrat-SemiBold',
                       color: Color(0xFF062E4B),
                       fontWeight: FontWeight.w600),
                 )),
@@ -66,7 +66,7 @@ class _CodeInputPageState extends State<CodeInputPage> {
                 "Введите код в течении 1:00 мин, если не получили код попробуйте отправить еще раз",
                 style: TextStyle(
                     fontSize: 14,
-                    fontFamily: 'Montserrat',
+                    fontFamily: 'Montserrat-Regular',
                     color: Color(0xFF797979),
                     fontWeight: FontWeight.normal),
               ),
@@ -76,7 +76,7 @@ class _CodeInputPageState extends State<CodeInputPage> {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               cursorColor: const Color(0xFFFFA51C),
               textStyle: const TextStyle(
-                fontSize: 22,
+                fontSize: 24,
                 fontFamily: 'Montserrat',
                 color: Color(0xFF2E2E2E),
                 fontWeight: FontWeight.w500,

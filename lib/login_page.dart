@@ -64,7 +64,11 @@ class _LoginPageState extends State<LoginPage> {
                       textColor: Colors.white,
                       child: const Text(
                         "Получить код",
-                        style: TextStyle(),
+                        style: TextStyle(
+                            fontSize: 14,
+                            fontFamily: 'Montserrat-SemiBold',
+                            fontWeight: FontWeight.w600
+                        ),
                       ),
                       onPressed: () {
                         Navigator.push(context,

@@ -50,7 +50,7 @@ class _MorePageState extends State<MorePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 30),
                   child: GestureDetector(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -82,7 +82,7 @@ class _MorePageState extends State<MorePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 30),
                   child: GestureDetector(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -114,7 +114,7 @@ class _MorePageState extends State<MorePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 30),
                   child: GestureDetector(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -146,7 +146,7 @@ class _MorePageState extends State<MorePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 30),
                   child: GestureDetector(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -178,7 +178,7 @@ class _MorePageState extends State<MorePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 30),
                   child: GestureDetector(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -210,7 +210,7 @@ class _MorePageState extends State<MorePage> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 30),
                   child: GestureDetector(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,

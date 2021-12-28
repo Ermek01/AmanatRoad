@@ -59,7 +59,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   "Добро пожаловать в Аманат Роуд!",
                   style: TextStyle(
                       fontSize: 16,
-                      fontFamily: 'Montserrat',
+                      fontFamily: 'Montserrat-SemiBold',
                       color: Color(0xFF062E4B),
                       fontStyle: FontStyle.normal,
                       fontWeight: FontWeight.w600),

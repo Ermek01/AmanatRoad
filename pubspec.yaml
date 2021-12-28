@@ -95,6 +95,10 @@ flutter:
      - assets/images/ic_arrow_circle_right.svg
      - assets/images/ic_courier_send_bg.svg
      - assets/images/ic_courier_send.svg
+     - assets/images/ic_balance.svg
+     - assets/images/ic_balance.png
+     - assets/images/ic_news.svg
+     - assets/images/ic_news.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -114,9 +118,12 @@ flutter:
     - family: Montserrat-Regular
       fonts:
         - asset: fonts/Montserrat-Regular.ttf
-    - family: Montserrat-Bold
+    - family: Montserrat-SemiBold
       fonts:
-        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-SemiBold.ttf
+    - family: Roboto-bold
+      fonts:
+        - asset: fonts/Roboto-bold.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
