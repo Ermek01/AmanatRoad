@@ -99,6 +99,12 @@ flutter:
      - assets/images/ic_balance.png
      - assets/images/ic_news.svg
      - assets/images/ic_news.png
+     - assets/images/ic_search.svg
+     - assets/images/ic_calculate.svg
+     - assets/images/ic_call.svg
+     - assets/images/ic_arrow_right_white.svg
+     - assets/images/ic_info.svg
+     - assets/images/ic_whats_app.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

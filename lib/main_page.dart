@@ -30,6 +30,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return WillPopScope(
         child: Scaffold(
+          resizeToAvoidBottomInset: false,
           body: buildPageView(),
           floatingActionButton: Padding(
             padding: const EdgeInsets.only(top: 50),
