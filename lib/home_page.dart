@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(top: 40, right: 20),
+                  padding: const EdgeInsets.only(top: 20, right: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -157,11 +157,9 @@ class _HomePageState extends State<HomePage> {
                           padding: const EdgeInsets.only(left: 13),
                           child: GestureDetector(
                             onTap: () {
-                              Navigator.push(context,
-                                  MaterialPageRoute(builder: (context) {
-                                    return const ContactUsPage();
-                                  })
-                              );
+                              Navigator.push(context, MaterialPageRoute(
+                                  builder: (context) => ContactUsPage()
+                              ));
                             },
                             child: Container(
                               decoration: BoxDecoration(
