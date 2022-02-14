@@ -4,7 +4,10 @@ import 'package:flutter_svg/svg.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class OrdersPage extends StatefulWidget {
-  const OrdersPage({Key? key}) : super(key: key);
+
+  final void Function()? onPressed;
+
+  OrdersPage({this.onPressed});
 
   @override
   _OrdersPageState createState() => _OrdersPageState();
@@ -61,9 +64,13 @@ class _MyOrderPageState extends State<MyOrderPage> {
           itemBuilder: (BuildContext context, int index) {
             return GestureDetector(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return const OrderDetailPage();
-                }));
+                Navigator.of(context, rootNavigator: true).push(
+                  MaterialPageRoute(
+                      builder: (BuildContext context) {
+                        return OrderDetailPage();
+                      }
+                  )
+                );
               },
               child: Container(
                 margin: const EdgeInsets.symmetric(vertical: 10),

@@ -25,14 +25,6 @@ class _MainPageState extends State<MainPage> {
     GlobalKey<NavigatorState>()
   ];
 
-  static const List<Widget> _pages = <Widget>[
-    HomePage(),
-    OrdersPage(),
-    SharePage(),
-    NotificationPage(),
-    MorePage()
-  ];
-
   void bottomTapped(int index) {
     setState(() {
       _selectedIndex = index;
@@ -184,12 +176,18 @@ class _MainPageState extends State<MainPage> {
     );
   }
 
+  void _next() {
+    Navigator.push(context, MaterialPageRoute(
+        builder: (context) => OrderDetailPage()
+    ));
+  }
+
   Map<String, WidgetBuilder> _routeBuilders(BuildContext context, int index) {
     return {
       '/': (context) {
         return [
           const HomePage(),
-          const OrdersPage(),
+          OrdersPage(onPressed: _next),
           const SharePage(),
           const NotificationPage(),
           const MorePage(),

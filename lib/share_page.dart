@@ -1,3 +1,4 @@
+import 'package:amanat_road/cargo_information_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -218,7 +219,7 @@ class _SharePageState extends State<SharePage> {
                       onPressed: () {
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) {
-                              return const MainPage();
+                              return const CargoInformationPage();
                             }));
                       }),
                 ))
